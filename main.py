@@ -3,7 +3,7 @@ app= FastAPI()
 
 @app.get("/home")
 def home():
-    return {"message": "Welcome Home"}
+    return {"message": "Welcome VI India"}
 
 @app.get("/login")
 def login():
